@@ -1,0 +1,23 @@
+https://angular.io/guide/forms-overview
+
+Aggiungi la custom validation
+Crea un servizio locale storage che una volta premuto submit, salvi i dati dell'utente nel local storage (solo se la form è valida)
+Fare in modo che finchè il contenuto del campo non è valido, il campo venga mostrato in rosso (Cerca su Angular come fare)
+
+https://transform.tools/json-to-typescript - preferiti
+
+https://firebase.google.com/ - cwitter
+
+Authentication  Email/password 	Google Anonimo
+Firebase database modalità di test
+
+
+author "389ryew8"
+(stringa)
+creationTime 11 ottobre 2023 alle ore 12:00:00 UTC+2
+(timestamp)
+text "primo cwitt"
+(stringa)
+url "https://www.sticker.com/picture_library/product_images/award-ribbons/72430_1st-first-place-award-ribbon-stickers-and-labels.png"
+
+https://firebase.google.com/docs/firestore/query-data/get-data?athuser=0#web-modular-api
