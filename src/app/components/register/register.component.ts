@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormArray, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { FormBuilder } from '@angular/forms';
 import { CustomValidators } from 'src/app/validators/custom-validators';
+import { AuthService } from 'src/app/services/auth.service';
+import { User } from 'src/app/model/user';
 
 @Component({
   selector: 'app-register',
@@ -24,11 +26,12 @@ export class RegisterComponent {
     gender:['']
   })
 
-  constructor(private fb:FormBuilder){}
+  constructor(private fb:FormBuilder, private authS: AuthService){}
 
   onSubmit(){
-    console.log(this.registerForm.valid)
-    console.log(this.registerForm.value)
+    console.log(this.registerForm.valid);
+    console.log(this.registerForm.value);
+    this.authS.saveUser(this.registerForm.value as User);
   }
 
   // // profileForm = new FormGroup({
