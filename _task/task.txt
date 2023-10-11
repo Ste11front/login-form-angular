@@ -4,15 +4,9 @@ Aggiungi la custom validation
 Crea un servizio locale storage che una volta premuto submit, salvi i dati dell'utente nel local storage (solo se la form è valida)
 Fare in modo che finchè il contenuto del campo non è valido, il campo venga mostrato in rosso (Cerca su Angular come fare)
 
-https://transform.tools/json-to-typescript - preferiti
-
-https://temp-mail.org/it/view/65266ed1875a89013b8ef33f howaja8414@locawin.com
-
-https://firebase.google.com/ - cwitter
-
+cwitter
 Authentication  Email/password 	Google Anonimo
 Firebase database modalità di test
-
 
 author "389ryew8"
 (stringa)
